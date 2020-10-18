@@ -1,0 +1,797 @@
+/* @Copyright Radar_soft_tech */
+/* @tarique */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: avenir-lt-w01_85-heavy1475544, sans-serif;
+}
+.main {
+    /* background-color: #492565; */
+    background: url(../images/LogIn-bg.png) center center / cover;
+    height: 100vh;
+}
+.login-form {
+    background: #ffffff;
+    padding: 110px 220px;
+    border-radius: 8px;
+    box-shadow: 6px 7px 12px 4px #0e0e0e82;
+    width: 70%;
+    margin: 150px auto 0;
+}
+.form-check {
+    margin-bottom: 20px !important;
+}
+.login-form h2 {
+    font-weight: 400;
+    color: #2d2d2d;
+    font-size: 35px;
+}
+.fa-eye {
+    cursor: pointer;
+    position: absolute;
+    top: 16px;
+    right: 2px;
+    font-size: 15px;
+    color: #cacaca;
+}
+.form-group {
+    margin-bottom: 1.2rem;
+    position: relative;
+}
+.form-control {
+    font-size: 14px;
+    padding: 5px 0px;
+    margin-bottom: 10px;
+    height: 45px;
+    border-bottom: 1px solid #000000 !important;
+    border: none;
+    border-radius: 0;
+    color: #c4c4c4;
+    font-weight: 500;
+}
+.form-control::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #c4c4c4;
+    font-weight: 500;
+}
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #492565;
+}
+.btn.signUpBtn {
+    background-color: #1abad7;
+    padding: 8px 50px;
+    border-radius: 0;
+    color: #ffffff;
+    height: 45px;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    transition: 0.3s;
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+}
+.signup-btn-signup {
+    margin-top: 55px !important;
+}
+.btn:hover {
+    box-shadow: 1px 1px 16px 2px #e2e2e2;
+    transform: translateY(-3px);
+    color: rgb(255, 255, 255);
+}
+.forget-pass a {
+    float: right;
+    color: #9d9d9dc2;
+    font-size: 12px;
+    position: relative;
+    top: -3px;
+}
+.no-account span {
+    background: #fff;
+    padding: 0 15px;
+    font-size: 14px;
+}
+.social-login {
+    text-align: center;
+}
+.form-check-label {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #492565;
+    font-weight: 600;
+}
+.social-login ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.social-login ul li a img {
+    width: 25px;
+    height: 25px;
+    transition: 0.3s;
+}
+.social-login ul li a img:hover {
+    box-shadow: 1px 1px 16px 2px #e2e2e2;
+    transform: translateY(-5px);
+    color: rgb(255, 255, 255);
+}
+.no-account {
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+.no-account a {
+    font-weight: 400;
+    color: #1abad7;
+    padding-left: 6px;
+}
+
+/* index-1-css */
+.main-1 {
+    background-color: #ffffff;
+    height: 100vh;
+}
+.login-form-1 {
+    background: #ffffff;
+    padding: 50px;
+    border-radius: 15px;
+    width: 40%;
+    margin: 0px auto;
+    box-shadow: 0 0 18px 8px #9a8dc130;
+}
+.login-form-1 h2 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #2d2d2d;
+}
+
+/* --------choose-project-css------ */
+
+.choose-procets h2 {
+    font-family: Avenir LT Std;
+    font-size: 25px;
+    font-weight: 500;
+    color: #000000;
+    margin: 50px 0 10px 0;
+}
+.choose-procets p {
+    font-family: Avenir LT Std;
+    font-size: 15px;
+    font-weight: 400;
+    color: #8b8b8b;
+    margin: 20px 0;
+}
+.project-choose-1 {
+    background-image: url(../images/choose-1.jpg);
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: cover;
+    padding: 56px 60px 50px 60px;
+    margin-top: 35px;
+    border-radius: 8px;
+}
+.project-inner-heading h3 {
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 60px;
+}
+.view-details {
+    background: rgba(255, 255, 255, 0.6);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 3px;
+    font-size: 14px;
+    transition: 0.3s;
+    color: #000000;
+    outline: none;
+}
+.project-inner-heading button:hover {
+    box-shadow: 1px 4px 12px 0px #0000002b;
+    transform: translateY(-3px);
+    background: rgba(255, 255, 255, 0.6);
+    color: #000000;
+}
+.project-progress {
+    text-align: right;
+}
+.project-progress p {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.project-progress span {
+    color: #1abad7;
+}
+.progress-completed {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff !important;
+    margin-left: 8px;
+}
+.choose-project-progress {
+    display: flex;
+    height: 8px;
+    overflow: hidden;
+    line-height: 0;
+    font-size: 0.75rem;
+    background-color: #e9ecef;
+    border-radius: 30px;
+    width: 130px;
+    float: right;
+    position: relative;
+    left: 0;
+    top: 7px;
+    margin-left: 6px;
+}
+.choose-project-progress .progress-bar {
+    background-color: #1abad7;
+    border-radius: 30px;
+}
+.choose-project-progress-sec {
+    position: relative;
+    display: inline-flex;
+}
+.project-choose-2 {
+    background-image: url(../images/choose-2.jpg);
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: cover;
+    padding: 56px 60px 50px 60px;
+    margin-top: 35px;
+    border-radius: 8px;
+}
+
+/* ------------Dashboard------- */
+header {
+    background: #ffffff;
+    border: 1px solid #f4f4f4;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.07);
+}
+.header-dashoard h2 {
+    font-family: Avenir LT Std;
+    font-weight: 750;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-family: Avenir LT Std;
+}
+.header-dashoard {
+    padding: 15px 0;
+}
+.user-profile {
+    background-image: url(../images/profile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    display: block;
+}
+.outer-middle-sec {
+    padding: 30px 10px;
+}
+.client-left-box-1 {
+    background-image: url(../images/dashboard-left-box.jpg);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    padding: 35px 25px;
+    margin-bottom: 30px;
+    height: 260px;
+}
+.client-left-box-1 h3 {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: Avenir LT Std;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family: Avenir LT Std;
+}
+.client-left-box-1 ul li {
+    display: block;
+    font-family: Avenir LT Std;
+    height: 28px;
+}
+.client-left-box-1 ul li a {
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Avenir LT Std;
+}
+.client-left-box-1 ul li a:hover {
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000 !important;
+    text-decoration: none;
+}
+.client-left-box-1 ul li a.active {
+    color: #000000 !important;
+    font-size: 18px;
+    font-family: Avenir LT Std;
+}
+.client-left-box-2 {
+    background-image: url(../images/dashboard-left-box.jpg);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    padding: 35px 25px;
+    margin-bottom: 30px;
+    height: 260px;
+}
+.client-left-box-2 h3 {
+    font-size: 28px;
+    font-weight: 400;
+    font-family: Avenir LT Std;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.client-left-box-2 ul li {
+    display: block;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding: 4px;
+    display: flex;
+}
+.client-left-box-2 ul li a {
+    font-size: 13px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.bold{
+    height: 25px;
+    width: 25px;
+    background-color: #18b6d3;
+    margin: 6px;
+    border-radius: 4px;
+}
+.progress-bar-completed{
+    background-image: url(../images/rectangle-complete.jpg);
+    background-position: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    padding: 20px 50px;
+    margin-bottom: 30px;
+}
+.progress-bar-completed h3{
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-family: Avenir LT Std;
+}
+.percent-completed {
+    font-size: 25px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-family: Avenir LT Std;
+}
+.purecnt-hours {
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: Avenir LT Std;
+}
+.complted-dashboard-progress {
+    height: 15px;
+    border-radius: 30px;
+    background-color: #ffffff;
+}
+.complted-dashboard-progress .progress-bar {
+    background-color: #f3a053;
+    border-radius: 30px;
+}
+.milestone-sec{
+    background-image: url(../images/milestone.jpg);
+    background-position: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    padding: 25px 50px 5px 50px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.milestone-sec h2{
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-family: Avenir LT Std;
+}
+.milestone-draft{
+    background-image: url(../images/milestone-inner.png);
+    background-position: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    padding: 20px 35px;
+    margin-bottom: 15px;
+}
+.first-draft-text h4 {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: Avenir LT Std;
+    margin: 0;
+}
+.first-draft-text span{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Avenir LT Std;
+}
+.total-hours span{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: Avenir LT Std;
+    cursor: pointer;
+}
+.total-hours svg {
+    font-size: 38px;
+}
+.draft-progress-bar{
+    margin-top: 20px;
+}
+.draft-progress-bar .progress {
+    height: 8px;
+    border-radius: 30px;
+    background-color: #ffffff;
+}
+.draft-progress-bar .progress-bar {
+    background-color: #18b6d3;
+    border-radius: 30px;
+}
+.total-hours {
+    margin-top: 7px;
+    text-align: right;
+}
+.final-draft-progress{
+    background-color: #f3a053 !important;
+}
+.revision-draft-progress{
+    background-color: #f3a053 !important;
+}
+.social-connect{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+.social-connect ul li{
+    display: block;
+}
+.social-connect ul li a {
+    padding: 15px;
+    margin-bottom: 12px;
+    display: block;
+    background-color: #ffffff;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.social-connect ul li a:hover {
+    box-shadow: 1px 1px 16px 2px #e2e2e2;
+    transform: translateY(-3px);
+    color: rgb(255, 255, 255);
+}
+/* Admin */
+.admin-left-box-1 {
+    background-image: url(../images/dashboard-left-box.jpg);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    padding: 35px 25px;
+    margin-bottom: 15px;
+    height: 230px;
+}
+.admin-left-box-1 h3 {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: Avenir LT Std;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family: Avenir LT Std;
+}
+.admin-left-box-1 ul li {
+    display: block;
+    font-family: Avenir LT Std;
+    height: 28px;
+}
+.admin-left-box-1 ul li a {
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Avenir LT Std;
+}
+.admin-left-box-1 ul li a:hover {
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000 !important;
+    text-decoration: none;
+}
+.admin-left-box-1 ul li a.active {
+    color: #000000 !important;
+    font-size: 18px;
+    font-family: Avenir LT Std;
+}
+.admin-left-box-2 {
+    background-image: url(../images/dashboard-left-box.jpg);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    padding: 35px 25px;
+    margin-bottom: 15px;
+    height: 230px;
+}
+.admin-left-box-2 h3 {
+    font-size: 28px;
+    font-weight: 400;
+    font-family: Avenir LT Std;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.admin-left-box-2 ul li {
+    display: block;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding: 4px;
+    display: flex;
+}
+.admin-left-box-2 ul li a {
+    font-size: 13px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.admin-left-box-3 {
+    background-image: url(../images/dashboard-left-box.jpg);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    padding: 20px 25px;
+    margin-bottom: 15px;
+    height: 125px;
+}
+.admin-left-box-3 h3 {
+    font-size: 23px;
+    font-weight: 400;
+    font-family: Avenir LT Std;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.admin-left-box-3 button{
+    background-color: #2F2E2E;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: Avenir LT Std;
+    transition: 0.3s;
+    padding: 6px 12px;
+}
+.admin-padding{
+    padding: 25px 50px 67px 50px;
+}
+
+/* dammy-nav-barcss */
+.navbar{
+    padding: 18px 0;
+    border-bottom: 1px solid lightgrey;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Avenir LT Std;
+}
+.assign-project {
+    width: 320px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 4px 6px 16px 0px #80808091;
+    position: absolute;
+    z-index: 99;
+    bottom: 100px;
+    left: 35px;
+}
+.assign-project h3 {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Avenir LT Std;
+    margin-bottom: 15px;
+}
+.input-group input {
+    border: none;
+    padding: 6px 10px;
+    border-bottom: 1px solid #ffffff !important;
+}
+.input-group-shadow {
+    background: #FFFFFF;
+    box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+}
+.add-user-icon {
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+.assign-project h4{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Avenir LT Std;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    display: block;
+}
+.user-deyails-pop h5{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Avenir LT Std;
+    margin-bottom: 0;
+    line-height: .7;
+}
+.user-deyails-pop span{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: Avenir LT Std;
+    color: rgba(0, 0, 0, 0.5);
+}
+.user-img-client {
+    background-image: url(../images/client-assign.png);
+    height: 40px;
+    width: 40px;
+    display: block;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.user-ingo {
+    padding-left: 60px;
+    position: relative;
+    top: 7px;
+}
+.user-deyails-pop {
+    margin-bottom: 10px;
+}
+.add-phone-number-done{
+    border: none;
+    color: #ffffff;
+    padding: 4px 15px;
+    font-size: 13px;
+    border-radius: 3px;
+    background-color: #1ab9d7;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+.draft-project {
+    width: 320px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 4px 6px 16px 0px #80808091;
+    position: absolute;
+    z-index: 99;
+    right: 200px;
+    top: 10px;
+}
+.draft-project h3 {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Avenir LT Std;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.draft-project .hours {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Avenir LT Std;
+    margin-bottom: 15px;
+    text-align: center;
+    display: block;
+    color: #14aec8;
+}
+/* The container */
+.container-box {
+    display: block;
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #1ABAD7;
+    font-family: Avenir LT Std;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container-box input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container-box:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container-box input:checked ~ .checkmark {
+    background-color: #14adc8;
+    border-radius: 50%;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container-box input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container-box .checkmark:after {
+    left: 10px;
+    top: 5px;
+    width: 7px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.checkmark:before {
+    left: 10px;
+    top: 5px;
+    width: 7px;
+    height: 12px;
+    border: solid rgb(197, 31, 31);
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
