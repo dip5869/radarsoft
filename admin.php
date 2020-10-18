@@ -45,7 +45,7 @@
 // Get Boards from here
 
 
-print_r($result);die;
+//print_r($result);die;
 ?>
 
 <!DOCTYPE html>
